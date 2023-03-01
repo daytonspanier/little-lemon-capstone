@@ -1,11 +1,16 @@
 import "./App.css";
 
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
+
 function App() {
   return (
-    <div>
-      <h1>Home page test blah</h1>
-      <h2>This is testing the email for push</h2>
-    </div>
+    <>
+    <Header />
+    <Main />
+    <Footer />
+    </>
   );
 }
 
