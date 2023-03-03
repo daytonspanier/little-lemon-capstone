@@ -3,6 +3,13 @@
 /* font-family: 'Markazi Text', serif; */
 /* font-family: 'Karla', sans-serif; */
 
+h5 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  color: white;
+}
+
 /* Nav */
 
 .navbar {
@@ -27,4 +34,50 @@
 .navLinks a {
   text-decoration: none;
   color: black;
+}
+
+
+
+/* Footer */
+
+.grid-container-footer {
+  display: grid;
+  grid-template-areas: "footer-logo door-nav contact social-links";
+  background-color: #4B5E57;
+  padding: 40px 15% 40px 15%;
+
+}
+
+.footerLinks {
+  padding: 0;
+}
+
+.footerLinks li {
+  list-style: none;
+  font-family: 'Karla', sans-serif;
+}
+
+.footerLinks a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-logo img {
+  height: 200px;
+}
+
+.footer-logo {
+  grid-area: footer-logo;
+}
+
+.door-nav {
+  grid-area: door-nav;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.social-links {
+  grid-area: social-links;
 }

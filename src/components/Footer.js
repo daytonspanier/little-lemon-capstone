@@ -3,64 +3,63 @@ import React from "react";
 function Footer() {
     return(
         <footer className="grid-container-footer">
-            <div >
-                <img src="" alt="footer logo"/>
+            <div className="footer-grid-item footer-logo">
+                <img src="icons_assets/littlelemonlogo-white.png" alt="footer logo"/>
             </div>
-            <div>
-                <h5>footer title</h5>
+            <div className="footer-grid-item door-nav">
+                <h5>Doormat Navigation</h5>
                 <ul className="footerLinks">
                     <li>
-                        <a href="/"></a>
+                        <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="/"></a>
+                        <a href="/">About</a>
                     </li>
                     <li>
-                        <a href="/"></a>
+                        <a href="/">Menu</a>
                     </li>
                     <li>
-                        <a href="/"></a>
+                        <a href="/">Reservations</a>
                     </li>
                     <li>
-                        <a href="/"></a>
+                        <a href="/">Order Online</a>
                     </li>
                     <li>
-                        <a href="/"></a>
+                        <a href="/">Log In</a>
                     </li>
                 </ul>
             </div>
-            <div>
-                <h5>footer title</h5>
+            <div className="footer-grid-item contact">
+                <h5>Contact</h5>
                 <ul className="footerLinks">
                     <li>
-                        <a href="/"></a>
+                        <a href="/">Address</a>
                     </li>
                     <li>
-                        <a href="/"></a>
+                        <a href="/">Phone #</a>
                     </li>
                     <li>
-                        <a href="/"></a>
+                        <a href="/">Email</a>
                     </li>
                 </ul>
             </div>
-            <div>
-                <h5>footer title</h5>
+            <div className="footer-grid-item social-links">
+                <h5>Social Media Links</h5>
                 <ul className="footerLinks">
                     <li>
-                        <a href="/"></a>
+                        <a href="/">Instagram</a>
                     </li>
                     <li>
-                        <a href="/"></a>
+                        <a href="/">Facebook</a>
                     </li>
                     <li>
-                        <a href="/"></a>
+                        <a href="/">Twitter</a>
                     </li>
                     <li>
-                        <a href="/"></a>
+                        <a href="/">TikTok</a>
                     </li>
                 </ul>
             </div>
-     
         </footer>
 
     );
