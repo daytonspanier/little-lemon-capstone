@@ -3,12 +3,49 @@
 /* font-family: 'Markazi Text', serif; */
 /* font-family: 'Karla', sans-serif; */
 
+/* Display Titles */
+h1 {
+  font-family: 'Markazi Text', serif;
+  font-size: 64px;
+  font-weight: 500;
+  color: #f4ce14;
+}
+
+/* Sub-titles */
+h2 {
+  font-family: 'Markazi Text', serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+/* Section titles & buttons & form  */
+h3 {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* Card titles */
+h4 {
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+/* Nav & section catagory & footer titles */
 h5 {
   font-family: 'Karla', sans-serif;
   font-weight: 800;
   font-size: 16px;
   color: white;
 }
+
+p {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 
 /* Nav */
 
@@ -34,6 +71,59 @@ h5 {
 .navLinks a {
   text-decoration: none;
   color: black;
+}
+
+
+/* Main  */
+
+.heroSection {
+  display: flex;
+  background-color: #4B5E57;
+  padding: 40px 15% 40px 15%;
+}
+
+.heroSection h1 {
+  margin: 0px;
+}
+
+.heroSection h2 {
+  margin: 0px;
+  color: white;
+  transform: translateY(-20%);
+}
+
+.heroSection p {
+  color: white;
+  margin: 40px 15% 40px 0;
+}
+
+.heroImage img {
+  height: 350px;
+  border-style: none;
+  border-radius: 8px;
+}
+
+.reserveTableButton {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #f4ce14;
+  padding: 15px;
+  border-radius: 16px;
+  border-style: none;
+}
+
+
+/* Highlights/Specials section of Main */
+
+.specialsTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 15% 40px 15%;
+}
+
+.specialsTitle h2 {
+  margin: 0px;
 }
 
 
