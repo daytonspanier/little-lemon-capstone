@@ -1,5 +1,6 @@
 import React from "react";
-// import SpecialsCards from "./SpecialsCards";
+import SpecialsCards from "./SpecialsCards";
+
 
 function Main() {
     return(
@@ -23,7 +24,7 @@ function Main() {
                     <button className="reserveTableButton">Reserve a Table</button>
                </div>
                <div>
-                {/* Special cards go here */}
+                <SpecialsCards/>
                </div>
             </section>
         </div>
