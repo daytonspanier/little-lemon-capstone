@@ -18,7 +18,7 @@ const SpecialsCards = () => {
             image: "icons_assets/lemon dessert.jpg",
             title: "Lemon Dessert",
             price: "$5.00",
-            description: "This comes straight from Grandma's recipe book. Every last ingredient has been sourced and is as authentic as can be imagined.",
+            description: "This comes straight from Grandma's recipe book. Every last ingredient has been sourced and is as authentic as can be imagined. A perfect end to your meal.",
         }
     ]
 
@@ -35,10 +35,13 @@ const SpecialsCards = () => {
                         <img src={image} alt="Menu special" />
                     </div>
                     <div className="special-card-text">
-                        <h4>{title}</h4>
-                        <h4 className="price-tag">{price}</h4>
+                        <div className="special-card-title">
+                            <h4>{title}</h4>
+                            <h4 className="price-tag">{price}</h4>
+                        </div>
+                        <p>{description}</p>
                     </div>
-                    <p>{description}</p>
+                    <a href="#">Order online</a>
                 </div>
             </div>
         )
