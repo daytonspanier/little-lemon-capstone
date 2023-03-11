@@ -1,0 +1,12 @@
+.testimonialsSection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px 15% 70px 15%;
+    background-color: #4b5e57;
+}
+
+.testimonialsSection h2 {
+    color: white;
+    text-align: center;
+}

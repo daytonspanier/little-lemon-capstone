@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/SpecialsCards.css";
 
 const SpecialsCards = () => {
     const specialMenu = [

@@ -1,0 +1,37 @@
+
+.heroSection {
+display: flex;
+background-color: #4B5E57;
+padding: 40px 15% 40px 15%;
+}
+
+.heroSection h1 {
+margin: 0px;
+}
+
+.heroSection h2 {
+margin: 0px;
+color: white;
+transform: translateY(-20%);
+}
+
+.heroSection p {
+color: white;
+margin: 40px 15% 40px 0;
+}
+
+.heroImage img {
+height: 350px;
+border-style: none;
+border-radius: 8px;
+}
+
+.reserveTableButton {
+font-family: 'Karla', sans-serif;
+font-size: 20px;
+font-weight: 700;
+background-color: #f4ce14;
+padding: 15px;
+border-radius: 16px;
+border-style: none;
+}

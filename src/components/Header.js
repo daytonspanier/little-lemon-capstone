@@ -1,10 +1,12 @@
 import React from 'react';
 import Nav from "./Nav";
+import "../Styles/Header.css";
 
 function Header() {
     return(
-        <Nav />
-
+        <div className='header'>
+            <Nav />
+        </div>
     );
 };
 

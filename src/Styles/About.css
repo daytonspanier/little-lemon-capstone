@@ -1,0 +1,38 @@
+.about-us {
+    display: flex;
+    padding: 50px 15% 50px 15%;
+    justify-content: space-between;
+}
+
+.about-us-text {
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 40%;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+
+.img-top {
+grid-column: 1 / span 8;
+grid-row: 1;
+padding-top: 50%;
+z-index: 1;
+}
+
+
+.img-bottom {
+grid-column: 6 / -1;
+grid-row: 1;
+
+}
+
+.image-container img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+}
