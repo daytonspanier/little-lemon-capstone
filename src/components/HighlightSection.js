@@ -1,4 +1,5 @@
 import React from "react";
+import ReservationsButton from "./ReservationsButton";
 import SpecialsCards from "./SpecialsCards";
 
 function HighlightSection() {
@@ -6,7 +7,7 @@ function HighlightSection() {
         <section className="highlightsSection">
                <div className="specialsTitle">
                     <h2>This Weeks Specials</h2>
-                    <button className="reserveTableButton">Reserve a Table</button>
+                    <ReservationsButton />
                </div>
                <div>
                 <SpecialsCards/>

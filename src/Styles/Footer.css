@@ -18,6 +18,11 @@
   .footerLinks a {
     color: white;
     text-decoration: none;
+    transition-duration: 0.2s;
+  }
+
+  .footerLinks a:hover {
+    color: #ee9972;
   }
 
   .footer-logo img {

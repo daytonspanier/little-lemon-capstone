@@ -20,7 +20,7 @@ const TestimonialsCards = () => {
         },
         {
             profileImage: "icons_assets/profile4.jpeg",
-            name: "Shayla Nicebum",
+            name: "Shayla Nicebunz",
             review: "Little Lemon is the best Mediterranean restaurant around! The food is amazing, the staff is friendly, and the atmosphere is cozy. I highly recommend it for anyone looking for a great dining experience.",
         }
     ]

@@ -1,0 +1,15 @@
+.reserveTableButton {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #f4ce14;
+    padding: 15px;
+    border-radius: 16px;
+    border-style: none;
+    transition-duration: 0.2s;
+    }
+
+.reserveTableButton:hover {
+background-color: #ee9972;
+cursor: pointer;
+}
