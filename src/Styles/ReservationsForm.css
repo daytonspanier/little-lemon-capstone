@@ -1,0 +1,38 @@
+form {
+    margin: 40px 15% 40px 15%;
+}
+
+label {
+font-family: "Karla", sans-serif;
+font-size: 16px;
+font-weight: 800;
+}
+
+legend {
+font-family: "Karla", sans-serif;
+font-size: 20px;
+font-weight: 800;
+}
+
+fieldset {
+border-radius: 16px;
+background-color: #edefee;
+border: none;
+}
+
+.form-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: repeat(5, 80px);
+gap: 50px
+;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+ width: 300px;
+}

@@ -1,0 +1,16 @@
+.reservationsBanner {
+    background-image: url("/Users/daytonspanier/Desktop/LLCapstone/little-lemon-capstone/public/icons_assets/restaurant.jpg");
+    width: 100vw;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reservationsBanner h1 {
+    color: white;
+}
