@@ -1,5 +1,5 @@
 form {
-    margin: 40px 15% 40px 15%;
+margin: 40px 15% 40px 15%;
 }
 
 label {
@@ -16,23 +16,84 @@ font-weight: 800;
 
 fieldset {
 border-radius: 16px;
-background-color: #edefee;
+background-color: white;
 border: none;
+}
+
+.form-title {
+display: flex;
+justify-content: flex-start;
 }
 
 .form-container {
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 400px 400px;
 grid-template-rows: repeat(5, 80px);
-gap: 50px
-;
+gap: 25px;
+align-items: center;
+justify-content: space-between;
 }
 
 .field {
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
-input {
- width: 300px;
+.field input {
+width: 300px;
+height: 40px;
+border-radius: 16px;
+background-color: #edefee;
+border: white;
+padding: 0 10px 0 10px;
+margin-top: 10px;
+}
+
+input:focus {
+outline: none !important;
+border: 3px solid #4B5E57;
+}
+
+.field select {
+width: 150px;
+height: 40px;
+border-radius: 16px;
+background-color: #edefee;
+border-style: none;
+padding: 0 10px 0 10px;
+margin-top: 10px;
+}
+
+select:focus {
+outline: none !important;
+border: 3px solid #4B5E57;
+}
+
+.date input {
+width: 200px;
+}
+
+.guests input {
+width: 40px;
+}
+
+.submit-button input {
+font-family: "Karla", sans-serif;
+font-size: 20px;
+font-weight: 700;
+background-color: #f4ce14;
+padding: 15px;
+border-radius: 16px;
+border-style: none;
+transition-duration: 0.2s;
+}
+
+.submit-button input:hover {
+background-color: #ee9972;
+cursor: pointer;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: flex-end;
 }
